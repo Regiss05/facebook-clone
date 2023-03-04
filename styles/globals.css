@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    body {
+        @apply bg-[#F0F2F5]
+    }
+}
+
+@layer components {
+    .icon_wrapper {
+        @apply bg-gray-300 w-[40px] h-[40px] rounded-full grid place-items-center
+    }
+}
